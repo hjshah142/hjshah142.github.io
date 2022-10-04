@@ -406,7 +406,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .project-card {
   padding: var(--gutter-normal);
-  border-radius: 16px;
+  border-radius: 13px;
   background: var(--black);
   box-shadow: -1rem 0 3rem #000;
   display: flex;
@@ -585,11 +585,11 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .card {
-  height: 500px;
-  width: 400px;
-  min-width: 350px;
+  height: 575px;
+  width: 1000px;
+  min-width: 600px;
   padding: var(--gutter-normal);
-  border-radius: 16px;
+  border-radius: 12px;
   background: var(--black);
   box-shadow: -1rem 0 3rem #000;
   display: flex;
@@ -605,7 +605,7 @@ body:not(.user-is-tabbing) a:focus {
   margin: 0.5rem 0;
 }
 .card .button {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .card:focus-within ~ .card,
@@ -626,7 +626,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .card-header p {
-  font-size: 14px;
+  font-size: 8px;
   margin: 0 0 1rem;
   color: var(--light-dark);
 }
